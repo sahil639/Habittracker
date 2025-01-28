@@ -1,4 +1,4 @@
-# My First iOS App: A Fun & Interactive Habit Tracker  
+# Jolte: A Fun & Interactive Habit Tracker  
 
 This is my **first hands-on experience** with iOS app development and SwiftUI! I'm building a **simple yet engaging Habit Tracker**—an app where you can add habits and track your progress over time. But I don’t want it to be just another tracker; I’m making it as **fun and interactive** as possible.  
 
