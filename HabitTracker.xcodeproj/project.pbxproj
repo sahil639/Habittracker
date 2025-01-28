@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		09C9B0782D493428004B8216 /* anya.riv in Resources */ = {isa = PBXBuildFile; fileRef = 09C9B0772D493428004B8216 /* anya.riv */; };
+		09C9B07A2D493A9C004B8216 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 09C9B0792D493A9C004B8216 /* RiveRuntime */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		09C9B0502D49295E004B8216 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,7 @@
 		09C9B03F2D49295C004B8216 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C9B04F2D49295E004B8216 /* HabitTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C9B0592D49295E004B8216 /* HabitTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C9B0772D493428004B8216 /* anya.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = anya.riv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C9B07A2D493A9C004B8216 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +86,7 @@
 				09C9B0522D49295E004B8216 /* HabitTrackerTests */,
 				09C9B05C2D49295E004B8216 /* HabitTrackerUITests */,
 				09C9B0402D49295C004B8216 /* Products */,
+				09C9B0772D493428004B8216 /* anya.riv */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +120,7 @@
 			);
 			name = HabitTracker;
 			packageProductDependencies = (
+				09C9B0792D493A9C004B8216 /* RiveRuntime */,
 			);
 			productName = HabitTracker;
 			productReference = 09C9B03F2D49295C004B8216 /* HabitTracker.app */;
@@ -195,6 +204,9 @@
 			);
 			mainGroup = 09C9B0362D49295C004B8216;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				09C9B0722D493209004B8216 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 09C9B0402D49295C004B8216 /* Products */;
 			projectDirPath = "";
@@ -212,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C9B0782D493428004B8216 /* anya.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +565,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09C9B0722D493209004B8216 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09C9B0792D493A9C004B8216 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09C9B0722D493209004B8216 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 09C9B0372D49295C004B8216 /* Project object */;
 }
